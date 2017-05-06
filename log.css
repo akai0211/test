@@ -1,0 +1,88 @@
+
+#content {
+  position: absolute;
+  top: 0;
+  margin-right: 5px;
+  bottom: 30px;
+  height : auto;
+  width: 99%;
+}
+.uibox {
+    border: 1px solid #a3a3a3;
+    border-radius: 4px;
+    overflow: hidden;  
+    background: #fff;
+}
+.offset {
+   margin-top: 5px;
+}
+.scroller {
+    overflow: auto;
+}
+
+#log {
+  margin-top : 20px;
+  margin-bottom :30px;
+  border: 1px solid #CCC;
+  border-collapse: separate;
+}
+.table {
+   width: 100%;
+   position: relative;
+   margin: 0 auto; 
+   border-spacing: 2px;
+   font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+   font-size: 12px;
+}
+.row_title {
+  background :#CCC;
+  height : 25px;
+  text-align: left;
+}
+.row {
+  background: #FCD9D9;
+ 
+}
+tr{
+ height :20px;
+}
+
+#pagination{
+    text-align: center;
+    font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:#3d3d3d;
+    margin-top: 20px;
+    width:100%;
+}
+#pagination a, #pagination strong{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 8px;
+    text-decoration: none; 
+    background-color: inherit;
+    color: #007F49;
+    font-weight: bold;
+}
+#pagination strong{
+    color: #ffffff;
+    background-color:#007F49;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-decoration: none; 
+}
+#pagination a:hover{
+    color: #ffffff;
+    background-color:#F00;
+    background-position: top center;
+    background-repeat: no-repeat;
+    text-decoration: none; 
+}
+#current_page {
+  text-align: center;
+  color:#007F49;
+  margin-top: 10px;
+  font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
